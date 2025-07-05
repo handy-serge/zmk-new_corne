@@ -8,6 +8,7 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: urob
       url-base: https://github.com/urob
+
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -21,5 +22,7 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: main
+      path: modules/zmk/helpers
+
   self:
     path: config
