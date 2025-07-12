@@ -118,7 +118,7 @@ ZMK_BASE_LAYER(Funnum,
 &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
 )
 
-#if 0
+#if 1
 ZMK_BASE_LAYER(Navmouse,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮          ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
     &kp U_CUT       &kp U_COPY      &kp HOME        &kp UP          &kp END         &kp PG_UP      ,           &mkp LCLK       U_WH_U          U_MS_U          U_WH_D          &kp U_REDO      XXX            ,
