@@ -13,7 +13,8 @@
 
 // This keyboard layout is losely based on Miryoku.
 // Todo:
-// - [ ] correct the number layer to include all numbers.
+// - [x] correct the number layer to include all numbers.
+// - [x] add meny key.
 // - [ ] correct navigation layer to put navigation symbols to right hand.
 // - [ ] put the mouse navigation to joystick.
 // - [ ] add the layers to configure bluetooth connections.
