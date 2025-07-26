@@ -11,6 +11,14 @@
 
 #include "mouse.dtsi"
 
+// This keyboard layout is losely based on Miryoku.
+// Todo:
+// - [ ] correct the number layer to include all numbers.
+// - [ ] correct navigation layer to put navigation symbols to right hand.
+// - [ ] put the mouse navigation to joystick.
+// - [ ] add the layers to configure bluetooth connections.
+
+
 #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH, LS0, LS13, LS4, sensors)                   \
     ZMK_LAYER(                                                                 \
         name,                                                                  \
