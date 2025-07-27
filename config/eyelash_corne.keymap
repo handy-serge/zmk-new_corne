@@ -155,14 +155,15 @@ ZMK_BASE_LAYER(Nav,
     &mkp RCLK       U_MS_D                         ,
 // ╰───────────────┴───────────────┴───────────────╯
 &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
+&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
 
 */
 // ╭───────────────┬───────────────┬───────────────╮
-                     &kp UP                        ,
+                    U_MS_U                         ,
 // ├───────────────┼───────────────┼───────────────┤
-    &kp LEFT         &kp ENTER         &kp RIGHT   ,
+    U_MS_L          &mkp LCLK       U_MS_R         ,
 // ├───────────────┼───────────────┼───────────────┤
-    &kp B            &kp DOWN                      ,
+    &mkp RCLK       U_MS_D                         ,
 // ╰───────────────┴───────────────┴───────────────╯
 &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
 )
