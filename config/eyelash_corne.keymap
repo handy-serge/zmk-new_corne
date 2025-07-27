@@ -135,24 +135,24 @@ ZMK_BASE_LAYER(Funnum,
 &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
 )
 
-ZMK_BASE_LAYER(Navmouse,
+ZMK_BASE_LAYER(Nav,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮          ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-    &kp U_CUT       &kp U_COPY      &kp HOME        &kp UP          &kp END         &kp PG_UP      ,           &mkp LCLK       U_WH_U          U_MS_U          U_WH_D          &kp U_REDO      XXX            ,
+    XXX             XXX             XXX             XXX             XXX             XXX            ,           &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp U_REDO      &kp PSCRN      ,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    XXX             &kp U_PASTE     &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN      ,           &mkp RCLK       U_MS_L          U_MS_D          U_MS_R          &kp U_UNDO      XXX            , 
+    XXX             &kp LGUI        &kp LALT        &kp LCTRL       &kp RSHFT       XXX            ,           &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &kp U_UNDO      &kp PAUSE_BREAK, 
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    XXX             &kp LGUI        &kp LALT        &kp LCTRL       &kp RSHFT       XXX            ,           &mkp MCLK       &kp RSHFT       &kp RCTRL       &kp LALT        &kp RGUI        XXX            ,
+    XXX             XXX             XXX             XXX             XXX             XXX            ,           &kp INS         &kp U_COPY      &kp U_PASTE     &kp U_CUT       &kp K_APP       XXX            ,
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
                                                     ___             ___             ___            ,           ___             ___             ___            ,
 //                                                 ╰───────────────┴───────────────┴───────────────╯          ╰───────────────┴───────────────┴───────────────╯
 // ╭───────────────┬───────────────┬───────────────╮
-                     &kp UP                        ,
+                    U_MS_U                         ,
 // ├───────────────┼───────────────┼───────────────┤
-    &kp LEFT         &kp ENTER         &kp RIGHT   ,
+    U_MS_L          &mkp LCLK       U_MS_R         ,
 // ├───────────────┼───────────────┼───────────────┤
-    &kp C            &kp DOWN                      ,
+    &mkp RCLK       U_MS_D                         ,
 // ╰───────────────┴───────────────┴───────────────╯
-&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
+&inc_dec_kp U_WH_D U_WH_U
 )
 
 ZMK_BASE_LAYER(Symbol,
