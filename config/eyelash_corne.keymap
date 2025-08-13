@@ -156,11 +156,11 @@ ZMK_BASE_LAYER(Nav,
 
 ZMK_BASE_LAYER(Symbol,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮          ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-    XXX             &kp LESS_THAN   &kp EXCL        &kp KP_MINUS    &kp GREATER_THAN &kp AMPERSAND ,           &kp CARET       &kp LEFT_BRACE  &kp RIGHT_BRACE &kp DOLLAR      &kp UNDERSCORE     XXX         ,
+    XXX             &kp LESS_THAN   &kp EXCL        &kp KP_MINUS    &kp GREATER_THAN &kp AMPERSAND ,           &kp CARET       &kp LEFT_BRACE  &kp RIGHT_BRACE &kp DOLLAR      &kp UNDERSCORE  XXX            ,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    XXX             &hml LGUI LBKT  &hml LALT RBKT  &hml LCTRL KP_PLUS &hml LSHFT  EQUAL  &kp PIPE ,           &kp HASH        &hmr RSHFT LPAR  &hmr RCTRL RPAR &hmr LALT COLON &hmr RGUI DOUBLE_QUOTES XXX   ,
+    XXX             &hml LGUI LBKT  &hml LALT RBKT  &hml LCTRL KP_PLUS &hml LSHFT  EQUAL  &kp PIPE ,           &kp HASH        &hmr RSHFT LPAR &hmr RCTRL RPAR &hmr LALT SEMI  &hmr RGUI DOUBLE_QUOTES XXX    ,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    XXX             &kp GRAVE       &kp TILDE       &kp KP_MULTIPLY &kp KP_DIVIDE   &kp PERCENT    ,           &kp AT          &kp SEMI        &kp COMMA       &kp DOT         &kp APOSTROPHE  XXX            ,
+    XXX             &kp GRAVE       &kp TILDE       &kp KP_MULTIPLY &kp KP_DIVIDE   &kp PERCENT    ,           &kp AT          &kp COLON       &kp COMMA       &kp DOT         &kp APOSTROPHE  XXX            ,
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
                                                     ___             ___             ___            ,           ___             ___             ___            ,
 //                                                 ╰───────────────┴───────────────┴───────────────╯          ╰───────────────┴───────────────┴───────────────╯
