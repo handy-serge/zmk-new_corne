@@ -108,7 +108,7 @@ ZMK_BASE_LAYER(Qwerty,
 // ├───────────────┼───────────────┼───────────────┤
     &kp LEFT         &kp ENTER         &kp RIGHT   ,
 // ├───────────────┼───────────────┼───────────────┤
-    &kp A            &kp DOWN                      ,
+    &kp C_MUTE       &kp DOWN                      ,
 // ╰───────────────┴───────────────┴───────────────╯
 &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
 )
@@ -119,7 +119,7 @@ ZMK_BASE_LAYER(Funnum,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
     XXX             &hml LGUI F5    &hml LALT F6    &hml LCTRL F7   &hml LSHFT F8   &kp KP_DIVIDE  ,           &kp MINUS       &hmr RSHFT N4   &hmr RCTRL N5   &hmr LALT N6    &kp  LGUI       XXX            ,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    XXX             &kp F1          &kp F2          &kp F3          &kp F4          &kp kBKSLASH   ,           &kp KP_EQUAL    &kp N1          &kp N2          &kp N3          XXX             XXX            ,
+    XXX             &kp F1          &kp F2          &kp F3          &kp F4          &kp kBKSLASH   ,           &kp EQUAL    &kp N1          &kp N2          &kp N3             XXX             XXX            ,
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
                                                     ___             ___             ___            ,           ___             ___             ___            ,
 //                                                 ╰───────────────┴───────────────┴───────────────╯          ╰───────────────┴───────────────┴───────────────╯
@@ -135,9 +135,9 @@ ZMK_BASE_LAYER(Funnum,
 
 ZMK_BASE_LAYER(Nav,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮          ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-    XXX             XXX             &mkp LCLK       &mkp MCLK       &mkp RCLK       U_WH_U         ,           &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp PSCRN       XXX            ,
+    &kp CAPS        XXX             &mkp LCLK       &mkp MCLK       &mkp RCLK       U_WH_U         ,           &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp PSCRN       XXX            ,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    XXX             &kp LGUI        &kp LALT        &kp LCTRL       &kp RSHFT       U_WH_D         ,           &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PAUSE_BREAK XXX            , 
+    XXX             &kp LGUI        &kp LALT        &kp LCTRL       &kp RSHFT       U_WH_D         ,           &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PAUSE_BREAK XXX            ,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
     XXX             &kp U_UNDO      &kp U_CUT       &kp U_COPY      &kp U_PASTE     &kp K_APP      ,           XXX             XXX             XXX             XXX             XXX             XXX            ,
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
@@ -156,13 +156,10 @@ ZMK_BASE_LAYER(Nav,
 
 ZMK_BASE_LAYER(Symbol,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮          ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-//    XXX             &kp TILDE       &kp LESS_THAN   &kp GREATER_THAN &kp KP_MINUS   &kp PIPE       ,           &kp CARET       &kp LEFT_BRACE  &kp RIGHT_BRACE &kp DOLLAR      &kp UNDERSCORE     XXX         ,
     XXX             &kp LESS_THAN   &kp EXCL        &kp KP_MINUS    &kp GREATER_THAN &kp AMPERSAND ,           &kp CARET       &kp LEFT_BRACE  &kp RIGHT_BRACE &kp DOLLAR      &kp UNDERSCORE     XXX         ,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-//    XXX              &hml LGUI EXCL &hml LALT KP_MULTIPLY &hml LCTRL KP_DIVIDE &hml LSHFT  KP_PLUS  &kp AMPERSAND,    &kp HASH      &hmr RSHFT LPAR  &hmr RCTRL RPAR  &hmr LALT COLON &hmr RGUI DOUBLE_QUOTES XXX    ,
-    XXX             &hml LGUI LBKT  &hml LALT RBKT  &hml LCTRL KP_PLUS &hml LSHFT  KP_EQUAL  &kp PIPE,    &kp HASH      &hmr RSHFT LPAR  &hmr RCTRL RPAR  &hmr LALT COLON &hmr RGUI DOUBLE_QUOTES XXX    ,
+    XXX             &hml LGUI LBKT  &hml LALT RBKT  &hml LCTRL KP_PLUS &hml LSHFT  EQUAL  &kp PIPE ,           &kp HASH        &hmr RSHFT LPAR  &hmr RCTRL RPAR &hmr LALT COLON &hmr RGUI DOUBLE_QUOTES XXX   ,
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-//    XXX             &kp GRAVE       &kp EQUAL       &kp LBKT        &kp RBKT        &kp PERCENT    ,           &kp AT          &kp SEMI        &kp COMMA       &kp DOT         &kp APOSTROPHE  XXX            ,
     XXX             &kp GRAVE       &kp TILDE       &kp KP_MULTIPLY &kp KP_DIVIDE   &kp PERCENT    ,           &kp AT          &kp SEMI        &kp COMMA       &kp DOT         &kp APOSTROPHE  XXX            ,
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤          ├───────────────┼───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
                                                     ___             ___             ___            ,           ___             ___             ___            ,
